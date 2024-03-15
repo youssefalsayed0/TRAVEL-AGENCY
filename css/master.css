@@ -206,6 +206,7 @@ ul {
   justify-content: center;
   height: 100vh;
   text-align: center;
+  overflow: hidden;
 }
 
 .landing .container h1 {
@@ -246,6 +247,7 @@ ul {
   background-color: var(--section-background);
   padding-top: var(--main-padding);
   padding-bottom: var(--main-padding);
+  overflow: hidden;
 }
 
 .services .container {
