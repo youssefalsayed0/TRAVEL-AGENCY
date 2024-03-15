@@ -20,7 +20,6 @@ body {
   background-image: url("../imgs/1325725.png");
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
   background-color: var(--main-color);
   color: white;
   font-family: "Ubuntu", sans-serif;
