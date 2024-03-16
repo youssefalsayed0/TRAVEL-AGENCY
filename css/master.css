@@ -200,10 +200,10 @@ ul {
 /* start landing */
 .landing .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: calc(100vh + 72px);
   text-align: center;
   overflow: hidden;
 }
@@ -229,7 +229,7 @@ ul {
   font-size: 18px;
   border: 1px solid white;
   padding: 20px 25px;
-  margin-top: 30px;
+  margin-top: 20px;
   transition: var(--main-transition);
 }
 
@@ -276,6 +276,15 @@ ul {
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.services .container .float .box:hover {
+  scale: 108%;
 }
 
 .services .container .float h1,
@@ -351,6 +360,18 @@ ul {
 
 .images .container {
   position: relative;
+}
+
+.images .container img {
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.images .container img:hover {
+  scale: 110%;
 }
 
 .images .container .image1 {
@@ -554,11 +575,21 @@ ul {
 .about .container .box img {
   max-width: 400px;
   max-height: 400px;
+  border: 5px solid white;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.about .container .box img:hover {
+  scale: 115%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -587,7 +618,7 @@ ul {
   display: grid;
   gap: 1rem 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  overflow: hidden;
+
 }
 
 .sample .container .box {
@@ -600,6 +631,15 @@ ul {
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.sample .container .box:hover {
+  scale: 105%;
 }
 
 .sample .container .box img {
@@ -657,6 +697,15 @@ ul {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.tour .text img:hover {
+  scale: 105%;
 }
 
 .tour .text h1 {
@@ -720,6 +769,15 @@ ul {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.article .container .image img:hover {
+  scale: 110%;
 }
 
 .article .container .text {
